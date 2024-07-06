@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Just a exercise</title>
-
+        <link rel="stylesheet" href="./assets/styles/css/styles.css">
     </head>
     <body>
         <h1>Cambio 1</h1>
@@ -16,7 +16,7 @@
         <div>
             <h4>1</h4>
         </div>
-        <div>
+        <div>   
             <h4>2</h4>
         </div>
         <div>
