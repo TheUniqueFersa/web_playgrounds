@@ -24,7 +24,11 @@
         <div id="container">
             <div id="cabecera">
                 Hyperblog
+<<<<<<< HEAD
                 <span id="tagline">Bienvenidos gente de Yutu</span>
+=======
+                <span id="tagline">Tu blog de confianza, muy de confianza</span>
+>>>>>>> 46b2488d21bf271b031a4c9566a02ed2e7b03b2c
             </div>
             <div id="post">
                 <h1>Este es el título atractivo e interesante del post</h1>
