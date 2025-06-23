@@ -1,0 +1,77 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    font-family: sans-serif;
+}
+
+.contenedor {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+.nivel {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#nivel1 {
+    width: 100%;
+    height: 100%;
+    background: #ff9999;
+}
+
+#nivel2 {
+    width: 80%;
+    height: 80%;
+    background: #ffcc99;
+}
+
+#nivel3 {
+    width: 60%;
+    height: 60%;
+    background: #ffff99;
+}
+
+#nivel4 {
+    width: 40%;
+    height: 40%;
+    background: #ccff99;
+}
+
+#nivel5 {
+    width: 20%;
+    height: 20%;
+    background: #99ccff;
+}
+
+.indicador {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 1em 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
